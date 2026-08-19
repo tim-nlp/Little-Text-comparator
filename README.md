@@ -53,9 +53,11 @@ You have two options: using your own texts or using random ones.
 ###### With your texts: 
 Please place your texts in the `Texts` folder as `.txt` files. For example: 
 
+```
 Texts/
 ├── my_first_text.txt
 └── my_second_text.txt
+```
 
 Your texts must not be empty or corrupted.
 Then, run `python main.py`. After pressing `s` to start, please enter `custom` and follow the instructions. When asked, enter the exact filename. For example: `Steam, Its Generation and Use` or `Computers-the machines we think with` without the `.txt` extension.
