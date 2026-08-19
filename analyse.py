@@ -74,3 +74,13 @@ class Analyser:
         for _, category in self.tag:
             if category in self.data:
                 self.data[category]+=1
+
+    def analyse(self):
+        """Starts the analysis"""
+        self.pre_traitement()
+        self.number_of_words()
+        self.letters_per_words()
+        self.number_of_sentences()
+        self.words_per_sentences()
+        self.lexical_diversity()
+        self.pos_tagging()

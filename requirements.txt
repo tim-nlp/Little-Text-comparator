@@ -3,3 +3,4 @@ nltk
 plotly
 pandas
 matplotlib
+requests
